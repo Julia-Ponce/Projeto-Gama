@@ -1,0 +1,58 @@
+{
+    "openapi": "3.0.0",
+  
+    "info": {
+      "title": "Projeto Gama",
+      "description": "Projeto JobsNET",
+      "version": "0.0.1"
+    },
+  
+    "servers": [
+      {
+        "url": "http://localhost:1000",
+        "description": "ambiente de desenvolvimento"
+      }
+    ],
+  
+    "paths": {
+      "/register": {
+        "post": {
+          "summary": "Formulário do candidato",
+          "description": "Percurso de cadastro, recebe: nome, sexo, email e cep",
+          "tags": ["candidato"],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "sexo": {
+                      "type": "string"
+                    },
+                    "cep": {
+                      "type": "string"
+                    },
+                    "email": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "examples": {
+                  "eu mesmo": {
+                    "value": {
+                      "name": "Júlia Ponce",
+                      "sexo": "Feminino",
+                      "cep": "00000-000",
+                      "email": "julia.rocpon@gmail.com"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
