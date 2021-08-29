@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Imagens/pexels-merlin-lightpainting-7464062.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1px;
+    align-items: center;
+    background: linear-gradient(90deg, #000000, #07031a);
+    box-shadow: 2px 2px 10px 2px rgb(118, 95, 182);
+    
+}
+
+.título {
+    color: #fff;
+}
+
+form {
+    font-size: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px;
+    color: #fff;
+}
+
+.flex-containerUm {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerUm div {
+    margin: 5px;
+}
+
+.flex-containerDois {
+    display: flex; 
+    justify-content: left;
+}
+
+.flex-containerDois div {
+    margin: 5px;
+}
+
+.flex-containerTreis {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerTreis div {
+    margin: 5px;
+}
+
+.flex-containerQuatro {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerQuatro div {
+    margin: 5px;
+}
+
+.flex-containerCinco {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerCinco div {
+    margin: 5px;
+}
+
+.flex-containerSeis {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSeis div {
+    margin: 5px;
+}
+
+.flex-containerSete {
+    display: flex;  
+    justify-content: left;
+}
+
+.flex-containerSete div {
+    margin: 5px;
+}
